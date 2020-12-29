@@ -32,17 +32,17 @@
   - git flow feature finish '피처명'
 
 - 덮어쓰기
-  git fetch --all
-  git reset --hard origin/master
-  git pull origin master
+  - git fetch --all
+  - git reset --hard origin/master
+  - git pull origin master
 
 - git global 사용자 삭제
-  git config --global --unset-all user.name
-  git config --global --unset-all user.email
+  - git config --global --unset-all user.name
+  - git config --global --unset-all user.email
 
 - git 초기화
-  git config --global --unset credential.helper
-  git config --system --unset credential.helper
+  - git config --global --unset credential.helper
+  - git config --system --unset credential.helper
 
 
 ## 정규식
